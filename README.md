@@ -20,11 +20,11 @@ The goals / steps of this project are the following:
 [image1]: ./Training.png "Training"
 [image2]: ./Validation.png "Validation"
 [image3]: ./Testing.png "Testing"
-[image4]: ./german_images/001.jpg =250x250 "Go straight or right"
-[image5]: ./german_images/002.jpg =250x250 "No entry"
-[image6]: ./german_images/003.jpg =250x250 "Road work"
-[image7]: ./german_images/004.jpg =250x250 "No passing"
-[image8]: ./german_images/005.jpg =250x250 "Speed limit (30km/h)"
+[image4]: ./german_images/001.jpg "Go straight or right"
+[image5]: ./german_images/002.jpg "No entry"
+[image6]: ./german_images/003.jpg "Road work"
+[image7]: ./german_images/004.jpg "No passing"
+[image8]: ./german_images/005.jpg "Speed limit (30km/h)"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -117,8 +117,8 @@ I think that adding in the dropout made my model perform a lot better.
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![alt text][image4 =250x250] ![alt text][image5 =250x250] ![alt text][image6 =250x250] 
+![alt text][image7 =250x250] ![alt text][image8 =250x250]
 
 The first image might be difficult to classify because there is a watermark on the picture, and while it is high resolution, I am resizing the image to a 32x32 image. I also believe that the 4th image will be harder to classify as it is fairly low resolution and looks even blockier after resizing the image to 32x32.
 
