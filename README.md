@@ -20,7 +20,7 @@ The goals / steps of this project are the following:
 [image1]: ./Training.png "Training"
 [image2]: ./Validation.png "Validation"
 [image3]: ./Testing.png "Testing"
-[image4]: ./german_images/001.jpg "Go straight or right"
+[image4| 250x250]: ./german_images/001.jpg "Go straight or right"
 [image5]: ./german_images/002.jpg "No entry"
 [image6]: ./german_images/003.jpg "Road work"
 [image7]: ./german_images/004.jpg "No passing"
