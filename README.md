@@ -20,11 +20,11 @@ The goals / steps of this project are the following:
 [image1]: ./Training.png "Training"
 [image2]: ./Validation.png "Validation"
 [image3]: ./Testing.png "Testing"
-[image4]: ./german_images/001.jpg "Go straight or right"
-[image5]: ./german_images/002.jpg "No entry"
-[image6]: ./german_images/003.jpg "Road work"
-[image7]: ./german_images/004.jpg "No passing"
-[image8]: ./german_images/005.jpg "Speed limit (30km/h)"
+[image4]: ./german_images/001.jpg =250x250 "Go straight or right"
+[image5]: ./german_images/002.jpg =250x250 "No entry"
+[image6]: ./german_images/003.jpg =250x250 "Road work"
+[image7]: ./german_images/004.jpg =250x250 "No passing"
+[image8]: ./german_images/005.jpg =250x250 "Speed limit (30km/h)"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
