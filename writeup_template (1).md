@@ -117,8 +117,11 @@ I think that adding in the dropout made my model perform a lot better.
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+<img src="/german_images/001.jpg" alt="" data-canonical-src="/german_images/001.jpg" width="250" height="250" />
+<img src="/german_images/002.jpg" alt="" data-canonical-src="/german_images/002.jpg" width="250" height="250" />
+<img src="/german_images/003.jpg" alt="" data-canonical-src="/german_images/003.jpg" width="250" height="250" />
+<img src="/german_images/004.jpg" alt="" data-canonical-src="/german_images/004.jpg" width="250" height="250" />
+<img src="/german_images/005.jpg" alt="" data-canonical-src="/german_images/005.jpg" width="250" height="250" />
 
 The first image might be difficult to classify because there is a watermark on the picture, and while it is high resolution, I am resizing the image to a 32x32 image. I also believe that the 4th image will be harder to classify as it is fairly low resolution and looks even blockier after resizing the image to 32x32.
 
