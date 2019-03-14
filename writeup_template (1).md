@@ -131,33 +131,33 @@ Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Go straight or right	| Go straight or right 							| 
+| Go straight or right	| General Caution 							| 
 | No entry     			| No entry 										|
 | Road work 			| Road work										|
 | No passing      		| No passing    				 				|
 | Speed limit (30km/h)	| Speed limit (30km/h) 							|
 
 
-The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. This compares favorably to the accuracy on the test set of 90.8%.
+The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This is definitely lower than the test set accuracy of 91.8%.
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
 The code for making predictions on my final model is located in the 14th cell of the Ipython notebook.
 
-For the first image, the model is almost completely sure that this is a "Go straight or right" sign (probability of 0.99996), and the image does in fact contain a "Go straight or right" sign. The top five soft max probabilities were 0.99996, 0.000036, 0.000006, 0.000001, and 0.0000002.
+For the first image, the model is almost completely sure that this is a "General Caution" sign (probability of 0.99989), and the image actually contains a "Go straight or right" sign. The other 4 of the top five soft max probabilities were 5.88e-5, 2.53e-05, 2.82e-5, and 4.53e-6.
 
-For the second image, the model is pretty much 100% sure that his is a "No Entry" sign, with a top prediction that rounds to 1.0. This proves to be true. The other 4 were 1.52e-09, 6.31e-12, 3.40e-13, and 1.17e-13.
+For the second image, the model is pretty much 100% sure that his is a "No Entry" sign, with a top prediction that rounds to 1.0. This proves to be true. The other 4 were 4.04e-09, 7.23e-13, 6.90e-13, and 1.60e-14.
 
-For the third image, the model is pretty sure that the image is a "Road Work" sign, with a probability of 0.997, and the image contains a "Road Work" sign. The other 4 softmax probabilities are 0.0026, 0.0000089, 0.00000066, and 0.00000039.
+For the third image, the model is pretty much 100% sure that the image is a "Road Work" sign, with a probability that rounds to 1.0, and the image contains a "Road Work" sign. The other 4 softmax probabilities are 1.49e-11, 1.94e-12, 1.20e-12, and 1.46e-13.
 
-For the fourth image, the model is fairly sure that the image is a "No Passing" sign, with a probability of 0.99266, and the image contains a "No Passing" sign. The other 4 softmax probabilities are 0.00399, 0.00172, 0.00091, 0.00034.
+For the fourth image, the model is fairly sure that the image is a "No Passing" sign, with a probability of 0.99967, and the image contains a "No Passing" sign. The other 4 softmax probabilities are 2.47e-4, 7.87e-5, 2.74e-6, 5.57e-7.
 
-For the fifth and final image, the model is almost completely sure that his is a "Speed limit (30km/h)" road sign, with a probability of 0.99997, and the image recognition is correct, as it is a "Speed limit (30km/h)" sign. The other 4 softmax probabilities are 0.000029, 1.83e-13, 4.18e-14, and 1.95e-19.
+For the fifth and final image, the model is pretty much 100% sure that this is a "Speed limit (30km/h)" road sign, with a probability that rounds to 1.0, and the image recognition is correct, as it is a "Speed limit (30km/h)" sign. The other 4 softmax probabilities are 3.54e-12, 1.68e-14, 2.54e-15, and 3.92e-18.
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| 0.99996      			| Go Straight or Right							| 
+| 0.99989      			| General Caution							| 
 | 1.00000  				| No Entry 										|
-| 0.99738				| Road Work										|
-| 0.99266      			| No Passing					 				|
-| 0.99997 			    | Speed limit (30km/h) 							|
+| 1.00000				| Road Work										|
+| 0.99967      			| No Passing					 				|
+| 1.00000 			    | Speed limit (30km/h) 							|
